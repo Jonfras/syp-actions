@@ -9,4 +9,4 @@ jobs:
             -   uses: actions/setup-dotnet@v4
                 with:
                     dotnet-version: '8.0.x'
-            -   run: dotnet build .syp-actions/syp-actions/syp-actions.csproj
+            -   run: dotnet build ./syp-actions/syp-actions/syp-actions.csproj

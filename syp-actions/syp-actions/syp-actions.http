@@ -1,0 +1,6 @@
+@syp_actions_HostAddress = http://localhost:5286
+
+GET {{syp_actions_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
